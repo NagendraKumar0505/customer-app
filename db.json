@@ -1,0 +1,162 @@
+{
+  "customers": [
+    {
+      "customerName": "Hanu",
+      "customerCode": "1111",
+      "customerAmount": "022",
+      "id": 4
+    },
+    {
+      "customerName": "Vedanshi",
+      "customerCode": "2222",
+      "customerAmount": "022",
+      "id": 5
+    },
+    {
+      "customerName": "Kala",
+      "customerCode": "2233",
+      "customerAmount": "0223",
+      "id": 6
+    },
+    {
+      "customerName": "Nagendra",
+      "customerCode": "3232",
+      "customerAmount": "10000",
+      "id": 7
+    },
+    {
+      "customerName": "Lakshmi",
+      "customerCode": "1233",
+      "customerAmount": "100000",
+      "id": 8
+    },
+    {
+      "customerName": "Kala",
+      "customerCode": "2233",
+      "customerAmount": "8223",
+      "id": 9
+    },
+    {
+      "customerName": "dfadf",
+      "customerCode": "1234",
+      "customerAmount": "3323",
+      "id": 10
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 11
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 12
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 13
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 14
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 15
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 16
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 17
+    },
+    {
+      "customerName": "mihir",
+      "customerCode": "2222",
+      "customerAmount": "022",
+      "id": 18
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 19
+    }
+  ],
+  "suppliers": [
+    {
+      "supplierName": "IBM",
+      "supplierCode": "1111",
+      "supplierAmount": "022",
+      "id": 4
+    },
+    {
+      "supplierName": "Samsung",
+      "supplierCode": "2222",
+      "supplierAmount": "022",
+      "id": 5
+    },
+    {
+      "supplierName": "Infy",
+      "supplierAmount": "3322",
+      "supplierCode": "1234",
+      "id": 6
+    },
+    {
+      "supplierName": "Infy",
+      "supplierAmount": "3322",
+      "supplierCode": "1234",
+      "id": 7
+    },
+    {
+      "supplierName": "Infy",
+      "supplierAmount": "3322",
+      "supplierCode": "1234",
+      "id": 8
+    },
+    {
+      "supplierName": "Infy",
+      "supplierAmount": "3322",
+      "supplierCode": "1234",
+      "id": 9
+    },
+    {
+      "supplierName": "",
+      "supplierAmount": 0,
+      "supplierCode": "",
+      "id": 10
+    },
+    {
+      "supplierName": "afdaf",
+      "supplierAmount": "123",
+      "supplierCode": "1234",
+      "id": 11
+    },
+    {
+      "supplierName": "",
+      "supplierAmount": 0,
+      "supplierCode": "",
+      "id": 12
+    },
+    {
+      "supplierName": "",
+      "supplierAmount": 0,
+      "supplierCode": "",
+      "id": 13
+    }
+  ]
+}

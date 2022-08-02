@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Customer {\n  constructor() {\n    this.customerCode = \"\";\n    this.customerName = \"\";\n    this.customerAmount = 0;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
