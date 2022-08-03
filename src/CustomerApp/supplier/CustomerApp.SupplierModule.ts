@@ -6,7 +6,7 @@ import {RouterModule} from '@angular/router'
 import { SupplierRoutes } from '../routing/CustomerApp.SupplierRouting';
 import { HttpClientModule } from '@angular/common/http';
 import { UtilitiesModule } from '../Utilities/CustomerApp.UtilitiesModule';
-import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
+// import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
 
 @NgModule({
   declarations: [
@@ -23,6 +23,6 @@ import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
-  bootstrap: [SupplierComponent,GridComponent]
+  bootstrap: [SupplierComponent]
 })
 export class SupplierModule { }

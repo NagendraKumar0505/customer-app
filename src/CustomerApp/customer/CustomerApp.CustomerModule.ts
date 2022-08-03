@@ -6,7 +6,7 @@ import {RouterModule} from '@angular/router'
 import { CustRoutes } from '../routing/CustomerApp.CustomerRouting';
 import {HttpClientModule} from '@angular/common/http'
 import { UtilitiesModule } from '../Utilities/CustomerApp.UtilitiesModule';
-import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
+// import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
 @NgModule({
   declarations: [
     CustComponent ,
@@ -20,8 +20,8 @@ import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
     HttpClientModule,
     UtilitiesModule
   ],
-  schemas:[CUSTOM_ELEMENTS_SCHEMA],
+  // schemas:[CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
-  bootstrap: [CustComponent,GridComponent]
+  bootstrap: [CustComponent]
 })
 export class CustomerModule { }

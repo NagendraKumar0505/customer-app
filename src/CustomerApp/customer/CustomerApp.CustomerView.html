@@ -2,8 +2,8 @@
 Customer code: <input type="text"  [(ngModel)]="customerModel.customerCode" formControlName="CustomerCodeControl" /><br>
 Customer name: <input type=text  formControlName="CustomerNameControl" [(ngModel)]="customerModel.customerName"/><br>
 Customer amount: <input type=text  [ngModelOptions]="{standalone:true}" [(ngModel)]="customerModel.customerAmount"/><br>
-<input [disabled]="!(customerModel.formCustomerGroup.valid)" (click)="Add()" type="button" value="add"/>
-<input [disabled]="disable" type="button" value="Post to server" (click)="postToServer()"/>
+<input [disabled]="!(customerModel.formCustomerGroup.valid)" (click)="Add()" type="button" value="Add Tempararily"/>
+<input [disabled]="disable" type="button" value="Add Permenently" (click)="postToServer()"/>
 
 
 </form>

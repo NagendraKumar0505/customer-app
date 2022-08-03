@@ -37,70 +37,16 @@
       "id": 9
     },
     {
-      "customerName": "dfadf",
-      "customerCode": "1234",
-      "customerAmount": "3323",
+      "customerName": "Vedanshi",
+      "customerCode": "2222",
+      "customerAmount": "022",
       "id": 10
     },
     {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 11
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 12
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 13
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 14
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 15
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 16
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 17
-    },
-    {
-      "customerName": "mihir",
+      "customerName": "Vedanshi",
       "customerCode": "2222",
-      "customerAmount": "022",
-      "id": 18
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 19
-    },
-    {
-      "customerName": "",
-      "customerCode": "",
-      "customerAmount": 0,
-      "id": 20
+      "customerAmount": "023",
+      "id": 11
     }
   ],
   "suppliers": [
@@ -123,46 +69,10 @@
       "id": 6
     },
     {
-      "supplierName": "Infy",
-      "supplierAmount": "3322",
-      "supplierCode": "1234",
+      "supplierName": "Samsung",
+      "supplierAmount": "023",
+      "supplierCode": "2222",
       "id": 7
-    },
-    {
-      "supplierName": "Infy",
-      "supplierAmount": "3322",
-      "supplierCode": "1234",
-      "id": 8
-    },
-    {
-      "supplierName": "Infy",
-      "supplierAmount": "3322",
-      "supplierCode": "1234",
-      "id": 9
-    },
-    {
-      "supplierName": "",
-      "supplierAmount": 0,
-      "supplierCode": "",
-      "id": 10
-    },
-    {
-      "supplierName": "afdaf",
-      "supplierAmount": "123",
-      "supplierCode": "1234",
-      "id": 11
-    },
-    {
-      "supplierName": "",
-      "supplierAmount": 0,
-      "supplierCode": "",
-      "id": 12
-    },
-    {
-      "supplierName": "",
-      "supplierAmount": 0,
-      "supplierCode": "",
-      "id": 13
     }
   ]
 }

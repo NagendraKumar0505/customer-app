@@ -6,8 +6,8 @@
                             
     Supplier Amount: <input type="text" [(ngModel)]="supplierModel.supplierAmount"
                 [ngModelOptions]="{standalone:true}"/><br>
-    <input [disabled]="!(supplierModel.formSupplierGroup.valid)" (click)="add()" type="button" value="Add supplier"/>
-    <input [disabled]="disable" type="button" value="Post to server" (click)="postToServer()"/>
+    <input [disabled]="!(supplierModel.formSupplierGroup.valid)" (click)="add()" type="button" value="Add Tempararily"/>
+    <input [disabled]="disable" type="button" value="Add Permenently" (click)="postToServer()"/>
                 
 </form>
 <div  *ngIf="supplierModel.formSupplierGroup&&supplierModel.formSupplierGroup.dirty" [hidden]="!(hasError('SupplierCodeControl','pattern'))">

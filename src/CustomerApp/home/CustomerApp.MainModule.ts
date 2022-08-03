@@ -6,6 +6,8 @@ import {FormsModule} from '@angular/forms'
 import {RouterModule} from '@angular/router'
 import { Mainroutes } from '../routing/CustomerApp.MainRouting';
 import { BaseLogger, ConsoleLogger, DbLogger } from '../Utilities/CustomerApp.Logger';
+// import { GridComponent } from '../Utilities/CustomerApp.GridComponent';
+// import { UtilitiesModule } from '../Utilities/CustomerApp.UtilitiesModule';
 @NgModule({
   declarations: [
     
@@ -14,6 +16,7 @@ import { BaseLogger, ConsoleLogger, DbLogger } from '../Utilities/CustomerApp.Lo
   ],
   imports: [
     BrowserModule,
+    // UtilitiesModule,
     FormsModule,
     RouterModule.forRoot(Mainroutes)
   ],

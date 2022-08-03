@@ -13,10 +13,11 @@ import { GridComponent } from './CustomerApp.GridComponent';
     FormsModule,
     RouterModule.forChild(Mainroutes)
   ],
+  exports:[GridComponent],
   providers: [
     
   ],
   // schemas:[CUSTOM_ELEMENTS_SCHEMA],
-  bootstrap: [GridComponent]
+  // bootstrap: [GridComponent]
 })
 export class UtilitiesModule { }
