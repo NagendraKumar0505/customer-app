@@ -95,6 +95,12 @@
       "customerCode": "",
       "customerAmount": 0,
       "id": 19
+    },
+    {
+      "customerName": "",
+      "customerCode": "",
+      "customerAmount": 0,
+      "id": 20
     }
   ],
   "suppliers": [
