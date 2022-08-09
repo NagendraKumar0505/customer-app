@@ -1,6 +1,7 @@
 # CustomerApp
 
 ================================================================
+
 **Please run "json-server --watch db.json" for saving and retreiving data. used as fake db server in this appliation.**
 
 ================================================================
