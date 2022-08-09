@@ -1,9 +1,9 @@
 <form  [formGroup]="customerModel.formCustomerGroup" *ngIf="customerModel.formCustomerGroup">
-Customer code: <input type="text"  [(ngModel)]="customerModel.customerCode" formControlName="CustomerCodeControl" /><br>
-Customer name: <input type=text  formControlName="CustomerNameControl" [(ngModel)]="customerModel.customerName"/><br>
-Customer amount: <input type=text  [ngModelOptions]="{standalone:true}" [(ngModel)]="customerModel.customerAmount"/><br>
+Customer code: <input type="text" id="custCode"  [(ngModel)]="customerModel.customerCode" formControlName="CustomerCodeControl" /><br>
+Customer name: <input type=text  id="custName" formControlName="CustomerNameControl" [(ngModel)]="customerModel.customerName"/><br>
+Customer amount: <input type=text  id="custAmt" [ngModelOptions]="{standalone:true}" [(ngModel)]="customerModel.customerAmount"/><br>
 <input [disabled]="!(customerModel.formCustomerGroup.valid)" (click)="Add()" type="button" value="Add Tempararily"/>
-<input [disabled]="disable" type="button" value="Add Permenently" (click)="postToServer()"/>
+<input [disabled]="disable" type="button" id="btnadd" value="Add Permenently" (click)="postToServer()"/>
 
 
 </form>

@@ -1,13 +1,13 @@
 <form [formGroup]="supplierModel.formSupplierGroup" *ngIf="supplierModel.formSupplierGroup">
-    Supplier Code: <input type="text" [(ngModel)]="supplierModel.supplierCode"
+    Supplier Code: <input type="text" id="suppCode" [(ngModel)]="supplierModel.supplierCode"
                 formControlName="SupplierCodeControl"/><br>
-    Supplier Name: <input type="text" [(ngModel)]="supplierModel.supplierName"
+    Supplier Name: <input type="text" id="suppName"  [(ngModel)]="supplierModel.supplierName"
                             formControlName="SupplierNameControl"/><br>
                             
-    Supplier Amount: <input type="text" [(ngModel)]="supplierModel.supplierAmount"
+    Supplier Amount: <input type="text"  id="suppAmt" [(ngModel)]="supplierModel.supplierAmount"
                 [ngModelOptions]="{standalone:true}"/><br>
     <input [disabled]="!(supplierModel.formSupplierGroup.valid)" (click)="add()" type="button" value="Add Tempararily"/>
-    <input [disabled]="disable" type="button" value="Add Permenently" (click)="postToServer()"/>
+    <input [disabled]="disable" type="button"  id="btnadd"  value="Add Permenently" (click)="postToServer()"/>
                 
 </form>
 <div  *ngIf="supplierModel.formSupplierGroup&&supplierModel.formSupplierGroup.dirty" [hidden]="!(hasError('SupplierCodeControl','pattern'))">

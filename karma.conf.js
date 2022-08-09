@@ -12,12 +12,19 @@ module.exports = function (config) {
       require('karma-coverage'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
+    browserConsoleLogOptions: {
+      level: 'log'
+    },
     client: {
       jasmine: {
         // you can add configuration options for Jasmine here
         // the possible options are listed at https://jasmine.github.io/api/edge/Configuration.html
         // for example, you can disable the random execution with `random: false`
         // or set a specific seed with `seed: 4321`
+      },
+      captureConsole: true,
+      mocha: {
+        bail: true
       },
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
@@ -29,7 +36,8 @@ module.exports = function (config) {
       subdir: '.',
       reporters: [
         { type: 'html' },
-        { type: 'text-summary' }
+        { type: 'text-summary' },
+        'spec'
       ]
     },
     reporters: ['progress', 'kjhtml'],
