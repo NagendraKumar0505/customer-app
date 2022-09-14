@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { CustComponent } from '../customer/CustomerApp.CustComponent';\nexport const CustRoutes = [{\n  path: \"Add\",\n  component: CustComponent\n}];","map":null,"metadata":{},"sourceType":"module"}

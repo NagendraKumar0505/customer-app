@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { SupplierComponent } from '../supplier/CustomerApp.SupplierComponent';\nexport const SupplierRoutes = [{\n  path: \"Add\",\n  component: SupplierComponent\n}];","map":null,"metadata":{},"sourceType":"module"}
