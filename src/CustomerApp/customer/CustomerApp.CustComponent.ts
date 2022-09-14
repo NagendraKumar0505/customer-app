@@ -18,19 +18,23 @@ export class CustComponent {
     this.logger.log('inside CustComponent');
     this.getFromServer();
   }
+  //this method is called when "Add Tempararily" button is clicked
   Add(){
     this.customerModels.push(this.customerModel);
     this.customerModel=new Customer();//clear text fields
   }
+  //below is used for validation msgs
   hasError(controlName:string,validationName:string){
     return this.customerModel.formCustomerGroup.controls[controlName].hasError(validationName);
   }
+  //below is called when "select" link is clicked
   selectCustomer(cust: any):void{
     this.customerModel= new Customer();
     this.customerModel.customerAmount=cust.customerAmount;
     this.customerModel.customerCode=cust.customerCode;
     this.customerModel.customerName=cust.customerName;
   }
+  //this method is called when "Add Permenantly" button is clicked
   postToServer(){
     var custDto : any ={};
     custDto.customerName=this.customerModel.customerName;
@@ -42,6 +46,7 @@ export class CustComponent {
         
 
   }
+  //below method will get data from db.json
   getFromServer(){
     
     this.http.get("http://localhost:3000/customers")
@@ -49,14 +54,17 @@ export class CustComponent {
         
     
   }
+  //callback method
   success(res:any){
     this.getFromServer();
   }
+  //callback method
   successGet(res:any){
     this.customerModels = res;
     this.customerModel = new Customer();
     this.disable=false;
   }
+  //callback method
   failure(res:any){
     console.error("Error from me::"+res);
   }

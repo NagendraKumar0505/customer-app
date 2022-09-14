@@ -12,7 +12,7 @@ import { GridComponent } from "../Utilities/CustomerApp.GridComponent"
 import { BaseLogger, ConsoleLogger, DbLogger } from "../Utilities/CustomerApp.Logger"
 import { UtilitiesModule } from "../Utilities/CustomerApp.UtilitiesModule"
 import { CustComponent } from "./CustomerApp.CustComponent"
-
+//unit test cases
 describe("when customer clicks, add button is working",()=>{
     beforeEach(async () => {
         TestBed.configureTestingModule({

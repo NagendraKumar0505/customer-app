@@ -18,10 +18,12 @@ export class SupplierComponent {
     this.logger.log('inside CustComponent');
     this.getFromServer();
   }
+  //this method is called when "Add Tempararily" button is clicked
   add(){
     this.supplierModels.push(this.supplierModel);
     this.supplierModel=new Supplier();
   }
+  //this method is called when "Add Permenantly" button is clicked
   postToServer(){
     var supDto: any ={};
     supDto.supplierName=this.supplierModel.supplierName;
@@ -31,18 +33,21 @@ export class SupplierComponent {
     this.http.post("http://localhost:3000/suppliers",supDto)
               .subscribe(res=>this.success(res),res=>this.failure(res));
   }
+  //below is called when "select" link is clicked
   selectSupplier(selected:any){
     this.supplierModel=new Supplier();
     this.supplierModel.supplierAmount=selected.supplierAmount;
     this.supplierModel.supplierCode=selected.supplierCode;
     this.supplierModel.supplierName=selected.supplierName;
   }
+  //below is used for validation msgs
   hasError(formControlName:string,validationName:string){
     return this.supplierModel.formSupplierGroup.controls[formControlName].hasError(validationName);
   }
   success(res: Object): void {
     this.getFromServer();
   }
+  //below method will get data from db.json
   getFromServer() {
     this.http.get("http://localhost:3000/suppliers")
     .subscribe(res=>this.successGet(res),res=>this.failure(res))
