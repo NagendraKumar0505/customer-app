@@ -59,144 +59,6 @@
       "customerCode": "4343",
       "customerAmount": "9999",
       "id": 13
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 14
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 15
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 16
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 17
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 18
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 19
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 20
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 21
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 22
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 23
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 24
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 25
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 26
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 27
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 28
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 29
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 30
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 31
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 32
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 33
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 34
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 35
-    },
-    {
-      "customerName": "Nagendra",
-      "customerCode": "4343",
-      "customerAmount": "9999",
-      "id": 36
     }
   ],
   "suppliers": [
@@ -229,6 +91,12 @@
       "supplierAmount": "022",
       "supplierCode": "1111",
       "id": 8
+    },
+    {
+      "supplierName": "IBM2",
+      "supplierAmount": "022",
+      "supplierCode": "1111",
+      "id": 9
     }
   ]
 }
